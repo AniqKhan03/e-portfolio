@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.orange{
+    color: #f06449;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+section{
+    background-color: rgb(245, 245, 245)
+}
+
+.title{
+    font-size: 120px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+
+
+/* 
+
+    LANDING PAGE
+    
+*/
+
+#landing-page{
+    min-height: 100vh;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1000px;
+}
+
+.header__para{
+    font-size: 24px;
+    line-height: 2;
+    max-width: 450px;
+}
+
+
+
+/* 
+
+    NAVIGATION 
+    
+*/
+
+#personal-logo{
+    width: 50px;
+    height: 50px;
+    filter: invert(0);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+
+.nav__link--list{
+    display: flex;
+}
+
+.nav__link{
+    margin: 0 12px;
+}
+
+.nav__link--anchor{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+.fa-adjust{
+    font-size: 20px;
+}
+
+
