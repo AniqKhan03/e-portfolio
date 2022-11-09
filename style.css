@@ -30,7 +30,7 @@ p {
 }
 
 .orange{
-    color: gray;
+    color: #e41111;
 }
 
 a {
@@ -489,8 +489,8 @@ label{
 
 
 .form__submit {
-    background-color: #f06449;
-    border: 2px solid #f06449;
+    background-color: #e41111;
+    border: 1px solid white;
     color: white;
     font-weight: 700;
     width: 100%;
@@ -684,7 +684,6 @@ label{
 footer{
     background-color: #242424;
     display: flex;
-    padding: 6% 0;
 
     position: relative;
 }
